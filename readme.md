@@ -1,7 +1,7 @@
-
 # OpenDownloader
-
 OpenDownloader is a command-line tool for downloading files from URLs.
+
+<img width="1200" alt="Facebook post - 3" src="https://github.com/uppriezdev/OpenDownloader/assets/99713905/1a6ccba9-0463-4d34-a80b-56f188bbacda">
 
 ## Features
 
