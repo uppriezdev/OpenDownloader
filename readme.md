@@ -50,6 +50,11 @@ python opendownloader.py --max-connections 8 https://example.com/file.zip --outp
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you find any bugs or have suggestions for improvements.
 
+## Inspiration
+
+This project drew inspiration from [Aria2c](https://aria2.github.io/), a lightweight multi-protocol & multi-source command-line download utility.
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
