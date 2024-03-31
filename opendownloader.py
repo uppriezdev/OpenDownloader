@@ -2,11 +2,10 @@ import os
 import typer
 from tqdm import tqdm
 import emoji
-from src.downloader import Downloader  # Update import statement
+from src.downloader import Downloader
 from src.utils import get_file_size, get_file_type, bytes_to_size 
 
 app = typer.Typer()
-# Define color constants
 COLOR_GREEN = typer.colors.GREEN
 COLOR_BLUE = typer.colors.BLUE
 COLOR_RED = typer.colors.RED
@@ -61,7 +60,7 @@ def main(
                 response = future.result()
                 total_size = int(response.headers.get('content-length', 0))
                 if total_size:
-                    chunk_size = 1024 * 1024  # 1 MB
+                    chunk_size = 1024 * 1024
                     with open(save_path, 'wb') as f:
                         for chunk in response.iter_content(chunk_size=chunk_size):
                             f.write(chunk)
